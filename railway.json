@@ -1,19 +1,5 @@
 {
   "build": {
-    "builder": "Dockerfile"
-  },
-  "deploy": {
-    "restart_policy": "on-failure"
-  },
-  "scripts": {
-    "start": "node server"
-  },
-  "services": [
-    {
-      "name": "wikijs",
-      "env": {
-        "PORT": "3000"
-      }
-    }
-  ]
+    "dockerfile": "Dockerfile"
+  }
 }
